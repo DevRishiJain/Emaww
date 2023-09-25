@@ -5,7 +5,7 @@ FROM node:14
 WORKDIR /app
 
 # Copy your Node.js script and package.json/package-lock.json to the container
-COPY your-script.js package*.json ./
+COPY task.js package*.json ./
 
 # Install any required Node.js modules
 RUN npm install
